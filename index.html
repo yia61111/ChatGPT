@@ -1,54 +1,54 @@
-: #
-//颜色: 10
-  <衬垫>
-20小卖部;
-小卖部
-    <小卖部>chatGPT4.0</光标>
-    <指针666位置>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatGPT4.0</title>
+    <style>
 * {
   box-sizing: border-box;
-  警报（“请等待当前会话结束后再发送另一条消息”）；: 0;
-  小卖部: 0;
-左边{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-小卖部{
+body {
   
-}聊天信息);
+  background:#ffffff ;
 }
 
-.<!DOCTYPE html>;
-颜色: 20.: #;[0]字号：14
-显示
-<<html lang=
-<<meta charset=
-//重置输入字段和发送按钮{
+.chat-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #E6E6E6;
+  border-radius: 10px;
 }
 
-//调用 API在我这里const response = JSON.parse数据{风格(头)}&messageID=1&model=down&type=json`;
-身体('input[type="text"]').val();
-$('input[type="text"]').val('');('button[type="submit"]');
-//在聊天窗口中添加错误信息
-函数 adderrormessagetochat（）{
-级
-const chatMessage = `
-级
-班级{
-级[0]班级
+.chat-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background: #333;
+  color: #fff;
+  font-size: 24px;
+  padding: 0 20px;
+  border-radius: 1px 1px 0 0;
 }
 
-[留言
-气泡-左]
-哎呀，出错了。请稍后再试。
-级{
-级
-//在聊天窗口中添加消息，逐个字母显示异步函数 addmessageto chat（用户、消息、bubbleClass）{ 10px;
+.chat-body {
+  flex: 1;
+  background: #E6E6E6;
+  padding: 0 20px 20px 20px;
+  overflow-y: scroll;
+  border-radius: 0 0 10px 10px;
 }
 
 .chat-message {
-  级: flag=true；//聊天正在进行中;
-  flex-direction: attr（'disabled'，'disabled'）. hide（）；//禁用并隐藏发送按钮;
-  margin-bottom: 50const chatMessage = `;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .user {
@@ -73,187 +73,187 @@ const chatMessage = `
   border-radius: 10px 10px 0 10px;
 }
 
-const chatMessage = response.Content;
-//绑定输入字段的submit事件
-$（'. chat-form'）. submit（函数（事件）{
-如果（旗帜）{
-警报（“请等待当前会话结束后再发送另一条消息”）；
-const message = $('input[type="text"]').val();
+.bubble-left {
+  background: #fff;
+  color: #333;
+  align-self: flex-start;
+  max-width: 85%;
+  border-radius: 15px 20px 20px 10;
 }
 
-if (message.trim() !== '') {
-addMessageToChat('', message, 'bubble-right');
-//自动滚动显示最新消息
-setInterval（函数（）{
-如果（！旗）{
-}, 8);
-$（'. chat-form'）. submit（函数（事件）{
-如果（旗帜）{
+.chat-form {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background: #E6E6E6;
 }
 
-警报（“请等待当前会话结束后再发送另一条消息”）；
-const message = $('input[type="text"]').val();
-if (message.trim() !== '') {
-addMessageToChat('', message, 'bubble-right');
-const response = JSON.parse(data);
-const chatMessage = response.Content;
-康斯特{
-apiURL
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #fff;
+  margin-right: 10px;
 }
 
-${[编码器="submit"] {
-  消息: const message = $('input[type="text"]').val();;
-  border-radius: 5没有一个 小卖部旗('button[type="submit"]');;
-虚假；
-: #
-  //颜色: 10衬垫 20小卖部;
-  font-size: 16小卖部 小卖部;
-  光标: 指针666位置;
+button[type="submit"] {
+  border: none;
+  border-radius: 5px;
+  background: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .feedback-link {
-  //警报（“请等待当前会话结束后再发送另一条消息”）；: 小卖部=左边;
-  //小卖部: 20chatMessages.<!DOCTYPE html>;
-  颜色: 20.: #;
-  font-size: 14显示;
-<<html lang=
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 14px;
+  color: #333;
 }
 
 .error-message {
-<<meta charset=
-//重置输入字段和发送按钮{
-//调用 API在我这里{
-const response = JSON.parse(data);
+  text-align: center;
+  color: red;
+  font-size: 18px;
+  margin-top: 20px;
 }
     </style>
   </head>
   <body>
-$('input[type="text"]').val('');
-//在聊天窗口中添加错误信息
-函数addErrorMessageToChat（）{
+    <div class="chat-wrapper">
+      <div class="chat-header">
+        chatGPT
       </div>
-const chatMessage = `
-<div class="chat-message">
-<div [留言]=级 chatMessages.气泡-com(，com)；>级{</级*****************************************************************************************************************************************************************************************************>
-        </级
-const chatMessage = `
-级
-      </班级>
-级
-班级
-[留言]
-<级chatMessages.气泡-com（，com）；="chat-message">
-        </级{>
-      </级[0]。//在聊天窗口中添加消息，我想通过你的邮箱聊天（、bubbleClass）{>
-    </级标志=true；//>
+      <div class="chat-body">
+        <div class="welcome-message">
+          江珝珝珝珝珝珝珝珝珝珝珝珝珝珝珝珝珝珝珝珝珝
+        </div>
+        <div class="error-message" style="display: none;">接口错误，请重新尝试...</div>
+        <div class="chat-messages"></div>
+      </div>
+      <div class="chat-footer">
+        <form class="chat-form">
+          <input type="text" placeholder="输入您的消息">
+          <button type="submit">发送</button>
+        </form>
+      </div>
+    </div>
 
-<attr('disabled'，'disabled')。hide（）；//禁用并隐藏发送按钮（const chatMessage=you[]）；左边=小卖部></旗超文本标记语言/get（apiURL，you like you mayoto）>>
-       <郎>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script>
 
-字符集
+$(function () {
   // Select chat window, error message element, and send button
   const chatMessages = $('.chat-messages');
   const errorMessage = $('.error-message');
-if (message.trim() !== '') {
+  const sendButton = $('button[type="submit"]');
 
-addMessageToChat('', message, 'bubble-right');
-//自动滚动显示最新消息
+  // Set flag variable to indicate if the chat is in progress
+  let flag = false;
 
-setInterval（函数（）{
-如果（！旗）{
+  // Check if it's a page refresh event
+  const isRefresh = performance.navigation.type === 1;
 
-}, 8);
-等待新承诺（resolve=>setTimeout（resolve，15））
+  // Reset input field and send button
+  function resetInputAndButton() {
     sendButton.removeAttr('disabled').show();
-attr
+    $('input[type="text"]').val('');
   }
 
-//禁用并隐藏发送按钮（const chatMessage=you）mayou=response.<!DOCTYPE html>；
-级
-班级
-形式
-级
-消息
-      </"级>
+  // Add error message to the chat window
+  function addErrorMessageToChat() {
+    errorMessage.show();
+    const chatMessage = `
+      <div class="chat-message">
+        <div class="message bubble-left">Oops, something went wrong. Please try again later.</div>
+      </div>
     `;
     chatMessages.append(chatMessage);
     chatMessages.scrollTop(chatMessages[0].scrollHeight);
   }
 
-级
-级
-班级
-级
-班级
-[留言]
-级
+  // Add message to the chat window, display letter by letter
+  async function addMessageToChat(user, message, bubbleClass) {
+    flag = true; // Chat is in progress
+    sendButton.attr('disabled', 'disabled').hide(); // Disable and hide the send button
+    const chatMessage = `
+      <div class="chat-message">
+        <div class="message ${bubbleClass}"></div>
       </div>
     `;
-chatMessages.气泡-com(，com)；
+    chatMessages.append(chatMessage);
 
-级{
-级*****************************************************************************************************************************************************************************************************
-级标志=true；//
-attr（'disabled'，'disabled'）. hide（）；//禁用并隐藏发送按钮（const chatMessage=you[]）；
-chatMessages.班级（您[0]；）
-超文本标记语言
+    const messageElement = $('.message').last();
+    for (let i = 0; i < message.length; i++) {
+      // Display letter by letter
+      messageElement.append(message[i]);
+      chatMessages.scrollTop(chatMessages[0].scrollHeight);
+      await new Promise(resolve => setTimeout(resolve, 15)); // Control the display speed
     }
-val（
-<meta/聊天结束${bubbleClass}<!DOCTYPE"
-聊天信息滚动高度（resetInputAndButton（）；（）{
+    chatMessages.scrollTop(chatMessages[0].scrollHeight); // Scroll to the bottom after displaying the message
+    flag = false; // Chat is finished
+    resetInputAndButton(); // Reset input field and send button
   }
 
-哎呀，出错了。请稍后再试。
-级
-级
+  // Call the API to get the response from the chatbot
+  function getResponseFromAPI(message) {
+    const apiURL = `http://ovoa.cc/api/ChatGPT-Max.php?message=${encodeURIComponent(message)}&messageID=1&model=down&type=json`;
 
-//在聊天窗口中添加消息，逐个字母显示
-异步函数 addmessageto chat（用户、消息、bubbleClass）{
-级
-flag=true；//聊天正在进行中
-attr（'disabled'，'disabled'）. hide（）；//禁用并隐藏发送按钮
-const chatMessage = `
-形式
-级
+    // Send a GET request
+    $.get(apiURL, function (data) {
+      try {
+        const response = JSON.parse(data);
+        const chatMessage = response.Content;
+        if (!chatMessage) {
+          addErrorMessageToChat(); // Add error message to the chat window if the chatbot doesn't reply
+          return;
         }
-形式
-级
-        scrollTop();
+        addMessageToChat('AI', chatMessage, 'bubble-left');
+      } catch {
+        addErrorMessageToChat();
       }
-//选择聊天窗口、错误信息元素和发送按钮
-const chatMessages = $('.chat-messages');
+    }, 'text').fail(function () {
+      addErrorMessageToChat();
     });
   }
 
-const errorMessage = $('.error-message');
-if (message.trim() !== '') {
-addMessageToChat('', message, 'bubble-right');
+  // Clear chat history if it's not a page refresh event
+  if (!isRefresh) {
+    chatMessages.empty();
   }
 
-//自动滚动显示最新消息
-setInterval（函数（）{
-如果（！旗）{
-}, 8);
-const chatMessage = `
-郎
+  // Bind the submit event of the input field
+  $('.chat-form').submit(function (event) {
+    event.preventDefault();
+    if (flag) {
+      alert('Please wait for the current conversation to finish before sending another message.');
+      return;
     }
-字符集 settimeout（resolve，15））
-attr
-//禁用并隐藏发送按钮（const chatMessage=you）mayou=response
-const chatMessage = `
+    const message = $('input[type="text"]').val();
+    if (message.trim() !== '') {
+      addMessageToChat('', message, 'bubble-right');
+      getResponseFromAPI(message);
     }
   });
 
-；
-级
-班级
-形式
+  // Automatically scroll to show the latest messages
+  setInterval(function () {
+    if (!flag) {
+      chatMessages.scrollTop(chatMessages[0].scrollHeight);
     }
-级
+  }, 8);
 });
 
 
 
-消息
-</"级>
-       </html>
+</script>
+</body>
+</html>
